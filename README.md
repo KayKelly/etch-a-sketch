@@ -1,0 +1,1 @@
+This is a Etch-a-Sketch project, which is part of the foundations curriculum on The Odin Project.
