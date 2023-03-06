@@ -13,8 +13,9 @@ btn.addEventListener('click', ()=> {
         const div = document.createElement('div');
         div.classList.add('grid');
         container.appendChild(div);
+        let randomColor = Math.floor(Math.random()*16777215).toString(16);
         div.addEventListener('mouseenter', ()=> {
-            div.style.backgroundColor = 'blue';
+            div.style.backgroundColor = '#' + randomColor;
         })};
     
     container.style.gridTemplateColumns = `repeat(${gridSize}, 1fr`;
