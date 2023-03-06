@@ -5,11 +5,8 @@
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
     }
-
-.grid {
-    flex: 1 0 6.25%;
-    height: 6.25%
-}
